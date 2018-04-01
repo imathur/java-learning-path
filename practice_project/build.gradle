@@ -1,0 +1,21 @@
+group 'com.gojek'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.gojek.date20180316.SumOfMultiples'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.9.0'
+}
+
+repositories {
+    jcenter()
+}
+
+
